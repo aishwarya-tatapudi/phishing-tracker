@@ -5,7 +5,7 @@ A Python ETL (Extract, Transform, Load) pipeline that processes a phishing URL d
 ## What this project does
 
 Phishing detection datasets are usually only used for training ML classifiers. This project instead treats the dataset as a data engineering problem: extract raw feature data, transform it into a labeled, structured format, load it into a queryable database, and use SQL to answer analytical questions about what separates malicious URLs from legitimate ones.
-
+This is a small-scale version of what email providers and browsers do to flag phishing links — using structured data about a URL to detect risk patterns instead of relying on a single signal.
 ## Pipeline steps
 
 **1. Extract**
